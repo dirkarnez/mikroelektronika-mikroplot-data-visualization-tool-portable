@@ -22,6 +22,7 @@ jobs:
           7z.exe x 1478104785_mikroplot_data_v_other_other.zip &&^
           cd MikroPlot &&^
           7z.exe x MikroPlot_Build.1.0.0.exe -o"MikroPlot_Build.1.0.0" &&^
+          cd MikroPlot_Build.1.0.0 &&^
           rmdir /s /q $PLUGINSDIR &&^
           del /f  Uninstall.exe
           
